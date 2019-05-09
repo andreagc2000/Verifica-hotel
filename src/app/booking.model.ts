@@ -2,6 +2,7 @@ import { Room } from './room.model';
 
 export class Booking
 {
+    
     constructor(
         public room : Room,
         public   from: Date,

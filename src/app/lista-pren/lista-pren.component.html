@@ -1,0 +1,5 @@
+<div *ngFor="let p of book" style="border:solid; margin-top:10px"  (click)="onClick(p)">
+    {{p|json}}
+</div>
+
+<app-dettagli-stanza [pDet] = "selectedP"></app-dettagli-stanza>
